@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BDCA5FE14EE7A4D00E51369 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDCA5FD14EE7A4D00E51369 /* GLUT.framework */; };
+		4BDCA60714EE7A8400E51369 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDCA60614EE7A8400E51369 /* OpenGL.framework */; };
+		5FDFDE9A14FC504700FA0551 /* StudentWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFDE9914FC504700FA0551 /* StudentWorld.cpp */; };
+		A003D3A91467454100E29365 /* scentipede.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A003D3A81467454100E29365 /* scentipede.1 */; };
+		A003D3B61467457F00E29365 /* actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A003D3B41467457F00E29365 /* actor.cpp */; };
+		A003D3C3146745D300E29365 /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A003D3B8146745D300E29365 /* GameController.cpp */; };
+		A003D3C4146745D300E29365 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A003D3BA146745D300E29365 /* GameWorld.cpp */; };
+		A003D3C5146745D300E29365 /* graphobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A003D3BC146745D300E29365 /* graphobj.cpp */; };
+		A003D3C6146745D300E29365 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A003D3BE146745D300E29365 /* main.cpp */; };
+		A003D3C7146745D300E29365 /* SoundFX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A003D3C0146745D300E29365 /* SoundFX.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A003D3A01467454100E29365 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A003D3A91467454100E29365 /* scentipede.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4BDCA5A914EE783F00E51369 /* scentipede */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scentipede; sourceTree = "<group>"; };
+		4BDCA5FD14EE7A4D00E51369 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		4BDCA60614EE7A8400E51369 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		5FDFDE9914FC504700FA0551 /* StudentWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudentWorld.cpp; sourceTree = "<group>"; };
+		A003D3A21467454100E29365 /* scentipede */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = scentipede; sourceTree = BUILT_PRODUCTS_DIR; };
+		A003D3A81467454100E29365 /* scentipede.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = scentipede.1; sourceTree = "<group>"; };
+		A003D3B41467457F00E29365 /* actor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = actor.cpp; sourceTree = "<group>"; };
+		A003D3B51467457F00E29365 /* actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = actor.h; sourceTree = "<group>"; };
+		A003D3B7146745D300E29365 /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
+		A003D3B8146745D300E29365 /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameController.cpp; sourceTree = "<group>"; };
+		A003D3B9146745D300E29365 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		A003D3BA146745D300E29365 /* GameWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
+		A003D3BB146745D300E29365 /* GameWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
+		A003D3BC146745D300E29365 /* graphobj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphobj.cpp; sourceTree = "<group>"; };
+		A003D3BD146745D300E29365 /* GraphObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphObj.h; sourceTree = "<group>"; };
+		A003D3BE146745D300E29365 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A003D3C0146745D300E29365 /* SoundFX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundFX.cpp; sourceTree = "<group>"; };
+		A003D3C1146745D300E29365 /* SoundFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundFX.h; sourceTree = "<group>"; };
+		A003D3C2146745D300E29365 /* StudentWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentWorld.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A003D39F1467454100E29365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDCA5FE14EE7A4D00E51369 /* GLUT.framework in Frameworks */,
+				4BDCA60714EE7A8400E51369 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A003D3971467454100E29365 = {
+			isa = PBXGroup;
+			children = (
+				4BDCA60614EE7A8400E51369 /* OpenGL.framework */,
+				4BDCA5FD14EE7A4D00E51369 /* GLUT.framework */,
+				4BDCA5A914EE783F00E51369 /* scentipede */,
+				A003D3A51467454100E29365 /* scentipede */,
+				A003D3A31467454100E29365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A003D3A31467454100E29365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A003D3A21467454100E29365 /* scentipede */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A003D3A51467454100E29365 /* scentipede */ = {
+			isa = PBXGroup;
+			children = (
+				A003D3B7146745D300E29365 /* GameConstants.h */,
+				A003D3B8146745D300E29365 /* GameController.cpp */,
+				A003D3B9146745D300E29365 /* GameController.h */,
+				A003D3BA146745D300E29365 /* GameWorld.cpp */,
+				A003D3BB146745D300E29365 /* GameWorld.h */,
+				A003D3BC146745D300E29365 /* graphobj.cpp */,
+				A003D3BD146745D300E29365 /* GraphObj.h */,
+				A003D3BE146745D300E29365 /* main.cpp */,
+				A003D3C0146745D300E29365 /* SoundFX.cpp */,
+				A003D3C1146745D300E29365 /* SoundFX.h */,
+				A003D3C2146745D300E29365 /* StudentWorld.h */,
+				5FDFDE9914FC504700FA0551 /* StudentWorld.cpp */,
+				A003D3B41467457F00E29365 /* actor.cpp */,
+				A003D3B51467457F00E29365 /* actor.h */,
+				A003D3A81467454100E29365 /* scentipede.1 */,
+			);
+			path = scentipede;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A003D3A11467454100E29365 /* scentipede */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A003D3AC1467454100E29365 /* Build configuration list for PBXNativeTarget "scentipede" */;
+			buildPhases = (
+				A003D39E1467454100E29365 /* Sources */,
+				A003D39F1467454100E29365 /* Frameworks */,
+				A003D3A01467454100E29365 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scentipede;
+			productName = scentipede;
+			productReference = A003D3A21467454100E29365 /* scentipede */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A003D3991467454100E29365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Self;
+			};
+			buildConfigurationList = A003D39C1467454100E29365 /* Build configuration list for PBXProject "scentipede" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A003D3971467454100E29365;
+			productRefGroup = A003D3A31467454100E29365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A003D3A11467454100E29365 /* scentipede */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A003D39E1467454100E29365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A003D3B61467457F00E29365 /* actor.cpp in Sources */,
+				A003D3C3146745D300E29365 /* GameController.cpp in Sources */,
+				A003D3C4146745D300E29365 /* GameWorld.cpp in Sources */,
+				A003D3C5146745D300E29365 /* graphobj.cpp in Sources */,
+				A003D3C6146745D300E29365 /* main.cpp in Sources */,
+				A003D3C7146745D300E29365 /* SoundFX.cpp in Sources */,
+				5FDFDE9A14FC504700FA0551 /* StudentWorld.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A003D3AA1467454100E29365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "-DMACOSX";
+			};
+			name = Debug;
+		};
+		A003D3AB1467454100E29365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		A003D3AD1467454100E29365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_VERSION = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A003D3AE1467454100E29365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A003D39C1467454100E29365 /* Build configuration list for PBXProject "scentipede" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003D3AA1467454100E29365 /* Debug */,
+				A003D3AB1467454100E29365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A003D3AC1467454100E29365 /* Build configuration list for PBXNativeTarget "scentipede" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003D3AD1467454100E29365 /* Debug */,
+				A003D3AE1467454100E29365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A003D3991467454100E29365 /* Project object */;
+}
